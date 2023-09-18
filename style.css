@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+p{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+nav#icon{
+    background-color: black;
+}
+
+nav img{
+    width: 1rem;
+}
+
+ul#menu{
+    display:flex;
+    list-style: none;
+    gap:1rem;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+
+
+
+section#banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+section#banner h1{
+        font-family: "Montserrat", Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 40px;      
+        
+}
+
+secion#banner p{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+}
+
+section#banner img{
+    width: 660px;
+    height: 850px;
+}
+
+button#contact{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    padding: 12px 32px 12px 32px;
+    cursor: pointer;
+}
+
+button#moreaboutus{
+    text-decoration: underline;
+    cursor: pointer;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
